@@ -1,6 +1,78 @@
 body   {
     font-family: 'Courier New', Courier, monospace;
 }
-.header .bottom-banner {
+.header, .bottom-banner {
     background-color: #1F2937;
+    height:50px;
+    display:flex;
+    margin:0px;
+    
+}
+
+.big-box-1 {
+    background-color: #1F2937;
+    display:flex;
+    flex-grow: 1 1 auto;
+    margin:0px;
+    justify-content: center;
+}
+
+.header h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header {
+
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    font-size: 18px 
+    font-color: #E5E7EB;
+}
+
+.placeholder {
+    height: 200px;
+    width:400px;
+}
+
+.gallery {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-evenly;
+        
+}
+
+.big-box-3 {
+    background-color: #E5E7EB;
+    Height:50px;
+    display:flex;
+    justify-content: center;
+}
+
+
+.gallery img {
+    height: 200px;
+    width: 200px;
+    border: 5px;
+    border-color: blue;
+    border-radius: 20px;
+}
+.gallery span p {
+    text-align: center;
+}
+
+.big-box-2 h2 {
+    text-align: center;
+}
+.big-box-4 {
+    display:flex;
+    justify-content:center;
+    flex-flow: wrap;
 }
