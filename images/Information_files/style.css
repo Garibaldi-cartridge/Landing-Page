@@ -1,0 +1,42 @@
+body   {
+    font-family: 'Courier New', Courier, monospace;
+}
+.header, .bottom-banner {
+    background-color: #1F2937;
+    height:50px;
+    display:flex;
+    margin:0px;
+    
+}
+
+.big-box-1 {
+    background-color: #1F2937;
+    display:flex;
+    flex-grow: 1 1 auto;
+    margin:0px;
+}
+
+.header {
+
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    }
+
+.placeholder {
+    height: 200px;
+    width:400px;
+}
+
+.big-box-3 {
+    background-color: #E5E7EB;
+    Height:50px;
+}
+
+.gallery img {
+    height: 200px;
+    width: 200px;
+    border: 5px;
+    border-color: blue;
+    border-radius: 20px;
+}
